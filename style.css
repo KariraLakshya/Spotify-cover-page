@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*body {
+    background-color: black;
+    color: white;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.left{
+    width: 25vw;
+    padding: 21px;
+}
+.right{
+    width: 75vw;
+}
+.home ul li{
+    list-style: none;
+    width: 14px;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding: 23px 14px;
+    padding-top: 14px;
+    font-size: 13px;
+    align-items: center;
+}
+.right{
+    margin: 16px 0;
+    position: relative;
+}
+.heading img{
+    width: 30px;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap: 9px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+.footer a{
+    color: grey;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34,34,34);
+}
+.header > *{
+    padding: 10px;
+}
+.spotifyplaylist{
+    padding: 16px;
+}
+.spotifyplaylist .card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+.card{
+    position: relative;
+}
+.card > *{
+    padding-top: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.cardContainer{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+.play {
+    width: 28px;
+    height: 28px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 88px;
+    right: 17px;
+    opacity: var(--a);
+    transition: all 1s ease-out;
+}
+.buttons > *{
+    margin: 0 12px;
+}
+.signupbtn{
+    background-color: rgb(34,34,34);
+    color: grey;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.loginbtn{
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.loginbtn:hover{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(163, 231, 163);
+    width: 100%;
+    padding: 12px;
+}
+.songbuttons{
+    display: flex;
+   justify-content: center;
+   gap: 16px;
+}
